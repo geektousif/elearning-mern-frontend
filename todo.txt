@@ -1,0 +1,2 @@
+- implement eslintrc, prettierrc from bulletproof-react
+- for production error catch - sentry

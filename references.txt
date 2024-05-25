@@ -1,0 +1,74 @@
+folder structure
+---------------
+
+src/
+|-- api/
+|   |-- axiosInstance.ts
+|   |-- authApi.ts
+|   |-- courseApi.ts
+|
+|-- assets/
+|   |-- images/
+|   |-- styles/
+|
+|-- components/
+|   |-- common/
+|   |   |-- Header.tsx
+|   |   |-- Footer.tsx
+|   |
+|   |-- auth/
+|   |   |-- LoginForm.tsx
+|   |   |-- SignUpForm.tsx
+|   |
+|-- constants/
+|   |-- roles.ts
+|   |-- routes.ts
+|
+|-- contexts/
+|   |-- AuthContext.tsx
+|
+|-- hooks/
+|   |-- useAuth.ts
+|   |-- useFetch.ts
+|
+|-- stores/
+|   |-- store.ts
+|
+|-- layouts/
+|   |-- AuthLayout.tsx
+|   |-- MainLayout.tsx
+|
+|-- pages/
+|   |-- Home.tsx
+|   |-- Login.tsx
+|   |-- SignUp.tsx
+|   |-- Dashboard/
+|   |   |-- StudentDashboard.tsx
+|   |   |-- TeacherDashboard.tsx
+|   |   |-- AdminDashboard.tsx
+|   |-- Courses/
+|   |   |-- CourseList.tsx
+|   |   |-- CourseDetail.tsx
+|   |   |-- CreateCourse.tsx
+|
+|-- routes/
+|   |-- PrivateRoute.tsx
+|   |-- PublicRoute.tsx
+|   |-- AppRoutes.tsx
+|
+|-- services/
+|   |-- authService.ts
+|   |-- courseService.ts
+|
+|-- utils/
+|   |-- ApiError.ts
+|   |-- helpers.ts
+|
+|-- types/
+|   |-- dddd.ts
+|   |-- dddd.ts
+|
+|-- App.tsx
+|-- index.tsx
+|-- setupTests.ts
+|-- global.d.ts
